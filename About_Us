@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1 {text-align: center;}
+        </style>
+    </head>
+    <body>
+        <h1>About Us</h1>
+        <h2>Team Members:</h2>
+        <ul>
+            <li>Prakhar Pandey</li>
+            <p>Is in charge of developing the front and back end of this website.</p>
+            <li>Mustafa Farah</li>
+            <p>Is also reponsible for developing the front and back end of this website.</p>
+            <li>Adeeb Salim</li>
+            <p>Is the technical lead for the project planning, design and implementation.</p>
+            <li>Momooreoluwa Osibodu</li>
+            <p>Making sure that users can easily navigate the website.</p>
+            <li>David Afolabi</li>
+            <p>Is working closly with the coders making sure they complete their work while also designing each page.</p>
+            <li>Mia Morgan</li>
+            <p>Will be woking on the front-end development for this team.</p>
+            <li>Euan Brunton-Douglas</li>
+            <p>Is the lead for the paperwork making sure it is completed while also helping the Front-End coders. Is also the person that created this page!</p>
+            <li>Bassit Irfan</li>
+            <p>Is the Lead for the front-end development of this website.</p>
+        </ul>
+        <h2>Kickskorner's History</h2>
+        <p>Kickskorner was created on the 28th of September 2023 by a group of Aston University passionate about improving the overall experience with online shoe stors.</p>
+        <h2>Kickskorner's Goal</h2>
+        <p>The main goal for kickskorner is to provide a wide range of footwear for individuals of all ages. It's secondary goal is to redefine the online shoe shopping experience.</p>
+    </body>
+<html>
