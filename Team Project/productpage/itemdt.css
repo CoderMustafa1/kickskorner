@@ -1,0 +1,291 @@
+.topnav {
+    overflow: hidden;
+    background-color: rgb(0, 0, 50);
+    padding-left: 16px;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    font-size: 9.5px;
+}
+
+.topnav a:hover {
+
+    color: pink;
+}
+
+.topnav>div {
+    float: right;
+}
+
+.bf {
+    width: 16px;
+    padding-top: 14px;
+    float: left;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.display-pic {
+    margin-left: 52px;
+    margin-right: 52px;
+    margin-bottom: 12px;
+    display: inline-block;
+}
+
+
+img.main-p {
+    padding-top: 25px;
+    width: 690px;
+    display: block;
+
+}
+
+
+.sub-p {
+    padding-top: 20px;
+    padding-bottom: 7px;
+    padding-right: 25px;
+    width: 330px;
+    height: 420px;
+    display: inline-flexbox;
+}
+
+.item-display {
+
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+
+.details {
+    position: absolute;
+    top: 170px;
+    right: 5px;
+
+
+}
+
+.np {
+    width: 300px;
+    right: 0px;
+
+    padding: 10px;
+    margin-right: 52px;
+    padding-bottom: 50px;
+}
+
+
+.color {
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 0.2mm;
+    border-color: #d6d6d6;
+}
+
+
+
+.color>img {
+    width: 30px;
+    flex-direction: row;
+    padding-right: 6px;
+    padding-bottom: 10px;
+}
+
+
+#sizes {
+    margin-top: 25px;
+    width: 300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: #d6d6d6;
+
+}
+
+.pm {
+    margin-top: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+    border-style: none;
+}
+
+.pay-op {
+    padding-top: 13px;
+
+    display: block;
+
+
+}
+
+#kl {
+
+    margin-left: 30px;
+    padding: 13px 25px;
+    font-size: 15px;
+    border-style: none;
+    background-color: pink;
+    border-radius: 8px;
+}
+
+#ppl {
+    margin-right: 30px;
+    padding: 13px 25px;
+    font-size: 15px;
+    border-style: none;
+    float: right;
+    background-color: #d6d6d6;
+    color: rgb(41, 41, 216);
+    border-radius: 8px;
+}
+
+.cw {
+    display: grid;
+    margin-top: 15px;
+    ;
+
+}
+
+#cart {
+    border-style: solid;
+    border-width: 2px;
+    padding: 15px 0px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+#wishlist {
+    margin-top: 10px;
+    border-style: none;
+    padding: 15px 0px;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+}
+
+
+
+.options>h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.options {
+    border-color: #979797;
+    border-top: solid;
+    border-width: 0.8px;
+    display: block;
+    margin-bottom: 50px;
+
+
+}
+
+.recs {
+    padding-top: 10px;
+    display: inline-flex;
+    margin-left: 47px;
+    margin-right: 47px;
+}
+
+
+div.op {
+    padding-right: 27px;
+    padding-left: 27px
+}
+
+.op>img {
+    width: 320px;
+    height: 442px;
+}
+
+div.op-dt {
+    padding-left: 10px;
+    font-size: 13px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.u {
+    font-size: 11px;
+    color: rgb(105, 105, 105);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 70px;
+
+}
+
+
+.f1 li {
+    color: rgb(227, 227, 227);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.f1 li:hover {
+    color: #979797;
+}
+
+.f2 li {
+    color: rgb(227, 227, 227);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    padding: 10px;
+    list-style-type: none;
+
+}
+
+.f2 li:hover {
+    color: #979797;
+}
+
+.f3>img {
+    padding-top: 7px;
+    width: 20px;
+}
+
+.f3>img:hover {
+    color: #979797;
+}
