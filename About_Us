@@ -2,30 +2,75 @@
 <html>
     <head>
         <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            li {
+                float: left;
+            }
+
+            li a {
+                display: block;
+                color: grey;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover {
+                background-color: #111;
+            }
+
             h1 {text-align: center;}
         </style>
     </head>
     <body>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#mens">Mens</a></li>
+            <li><a href="#womens">Womens</a></li>
+            <li><a href="#kids">Kids</a></li>
+        </ul>
+
         <h1>About Us</h1>
         <h2>Team Members:</h2>
         <ul>
             <li>Prakhar Pandey</li>
-            <p>Is in charge of developing the front and back end of this website.</p>
-            <li>Mustafa Farah</li>
-            <p>Is also reponsible for developing the front and back end of this website.</p>
-            <li>Adeeb Salim</li>
-            <p>Is the technical lead for the project planning, design and implementation.</p>
-            <li>Momooreoluwa Osibodu</li>
-            <p>Making sure that users can easily navigate the website.</p>
-            <li>David Afolabi</li>
-            <p>Is working closly with the coders making sure they complete their work while also designing each page.</p>
-            <li>Mia Morgan</li>
-            <p>Will be woking on the front-end development for this team.</p>
-            <li>Euan Brunton-Douglas</li>
-            <p>Is the lead for the paperwork making sure it is completed while also helping the Front-End coders. Is also the person that created this page!</p>
-            <li>Bassit Irfan</li>
-            <p>Is the Lead for the front-end development of this website.</p>
         </ul>
+        <p>Is in charge of developing the front and back end of this website.</p>
+        <ul>
+            <li>Mustafa Farah</li>
+        </ul>
+        <p>Is also reponsible for developing the front and back end of this website.</p>
+        <ul>
+            <li>Adeeb Salim</li>
+        </ul>
+        <p>Is the technical lead for the project planning, design and implementation.</p>
+        <ul>
+            <li>Momooreoluwa Osibodu</li>
+        </ul>
+        <p>Making sure that users can easily navigate the website.</p>
+        <ul>
+            <li>David Afolabi</li>
+        </ul>
+        <p>Is working closly with the coders making sure they complete their work while also designing each page.</p>
+        <ul>
+            <li>Mia Morgan</li>
+        </ul>
+        <p>Will be woking on the front-end development for this team.</p>
+        <ul>
+            <li>Euan Brunton-Douglas</li>
+        </ul>
+        <p>Is the lead for the paperwork making sure it is completed while also helping the Front-End coders. Is also the person that created this page!</p>
+        <ul>
+        <li>Bassit Irfan</li>
+        </ul>
+            <p>Is the Lead for the front-end development of this website.</p>
         <h2>Kickskorner's History</h2>
         <p>Kickskorner was created on the 28th of September 2023 by a group of Aston University passionate about improving the overall experience with online shoe stors.</p>
         <h2>Kickskorner's Goal</h2>
