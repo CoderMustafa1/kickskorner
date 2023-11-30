@@ -85,7 +85,7 @@ img.main-p {
 .np {
     width: 300px;
     right: 0px;
-
+    background-color: white;
     padding: 10px;
     margin-right: 52px;
     padding-bottom: 50px;
@@ -171,10 +171,15 @@ img.main-p {
 
 #cart {
     border-style: solid;
-    border-width: 2px;
+    border-width: 1.5px;
+    border-color: #7e7e7e;
     padding: 15px 0px;
     border-radius: 25px;
     font-size: 15px;
+}
+
+#cart:hover {
+    border-color: black;
 }
 
 #wishlist {
@@ -185,6 +190,10 @@ img.main-p {
     color: white;
     background-color: black;
     font-size: 15px;
+}
+
+#wishlist:hover {
+    background-color: #434343
 }
 
 
