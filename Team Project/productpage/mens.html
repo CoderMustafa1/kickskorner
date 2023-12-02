@@ -1,112 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link  rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <script src="display.js"></script>
     <title>Mens</title>
 </head>
 
 
 <body>
-    
 
-        <div class="topnav">
-             <a  href="#language">GB|ENG</a>
-             <img class="bf" src="images/british flag.png" alt="">
-                <div>
-                    <a   href="#help">Help</a>
-                    <a   href="#signIn">SignIn</a>
-                </div>
-        
+
+    <div class="topnav">
+        <a href="#language">GB|ENG</a>
+        <img class="bf" src="images/british flag.png" alt="">
+        <div>
+            <a href="#help">Help</a>
+            <a href="#signIn">SignIn</a>
         </div>
 
-       
-        
-        <div class="kk">
-            <img class="icon"src="images/logo-png.png" alt="">
-               
-                    <a   href="#new"> New</a>
-                     <a   href="#mens">Men</a>
-                     <a   href="#womens">Women</a>
-                     <a    href="#kids">Kids</a>
-            
-              
-                     
-            
-            <div class="WC">
-                <input type="text" placeholder="Search.." name="search">
-            </div>
-                    <img class="wc" src="images/cart.jpg" alt="">
-                    <img class="wc" src="images/wishlist.png" alt="">
-                
-            
-           
+    </div>
+
+
+
+    <div class="kk">
+        <img class="icon" src="images/logo-png.png" alt="">
+
+        <a href="#new"> New</a>
+        <a href="#mens">Men</a>
+        <a href="#womens">Women</a>
+        <a href="#kids">Kids</a>
+
+
+
+
+        <div class="WC">
+            <input type="text" placeholder="Search.." name="search">
         </div>
-    
-    
+        <img class="wc" src="images/cart.jpg" alt="">
+        <img class="wc" src="images/wishlist.png" alt="">
+
+
+
+    </div>
+
+
 
     <h1>KICKS FOR MEN</h1>
 
     <div class="filter">
-      
+
         <div class=" section" id="main">
-          
-            <button class="openbtn" onclick="openNav()"href="show-filter">Show Filter</button>
-        <p>30 results</p> 
+
+            <button class="openbtn" onclick="openNav()" href="show-filter">Show Filter</button>
+            <p>30 results</p>
         </div>
 
         <div class="dropdown" style="float:right;">
-            <button  onclick="myFunction()" class="sort-by">Sort-By</button>
-         
-       <div class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
+            <button onclick="myFunction()" class="sort-by">Sort-By</button>
 
-       </div>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+
+            </div>
+        </div>
     </div>
-    </div>
-
-    
 
 
-   
+
+
+
     <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="#">Size</a>
         <a href="#">Style</a>
         <a href="#">Color</a>
-        
-      </div>
+
+    </div>
 
     <div class="mens">
-       
-            <img class="products"src="images/newb.jpeg" alt="">
-            <img class="products"src="images/newb.jpeg" alt="">
-            <img class="products"src="images/newb.jpeg" alt="">
-            <img class="products"src="images/newb.jpeg" alt="">
-            <img class="products"src="images/newb.jpeg" alt="">
-            <img class="products"src="images/newb.jpeg" alt="">
-            <img class="products"src="images/newb.jpeg" alt="">
-            <img class="products"src="images/newb.jpeg" alt="">
-            <img class="products"src="images/newb.jpeg" alt="">
-            <img class="products"src="images/newb.jpeg" alt="">
-            <img class="products"src="images/newb.jpeg" alt="">
-            <img class="products"src="images/newb.jpeg" alt="">
+        <div class="testing">
+            <img id="products" src="images/newb.jpeg" alt="">
 
-            
-        
+            <button class="test" onclick="openForm()">
+                New Balance<br>
+                £85<br>
+                UNISEX
+            </button>
+
+
+        </div>
+
+        <!-- <div class="popup" id="myPopup">
+            <form action="/action_page.php" class="mypopup">
+
+                <img id="products" src="images/newb.jpeg" alt="">
+                <div class="details">
+
+                    <div class=" np">
+                        <h3>New Balance</h3>
+                        <p>£85</p>
+                        <p class="u">UNISEX</p>
+
+                        <div class="color">
+                            <h4>Colors</h4>
+                            <img src="images/adidas ss/color 1.jpeg">
+                            <img src="images/adidas ss/color 2.jpeg">
+                        </div>
+
+
+                        <select class="sizes" id="sizes" name="dropBox">
+                            <option>Select a Size </option>
+                            <option>UK 4</option>
+                            <option>UK 5</option>
+                            <option>UK 6</option>
+                            <option>UK 7</option>
+                            <option>UK 8</option>
+
+                        </select>
+
+                        <button class="pm">Make 3 payments<br> Learn more.</button>
+                        <div class="pay-op">
+                            <button id="kl">Klarna</button>
+                            <button id="ppl">PayPal</button>
+
+                        </div>
+
+
+                        <div class="cw">
+                            <button id="cart">Add to Cart</button>
+                            <button id="wishlist">Add to Wishlist</button>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </form>
+
+
+        </div>-->
+
+
+
+
+
+
+
+
+        <img class="products" src="images/newb.jpeg" alt="">
+        <img class="products" src="images/newb.jpeg" alt="">
+        <img class="products" src="images/newb.jpeg" alt="">
+        <img class="products" src="images/newb.jpeg" alt="">
+        <img class="products" src="images/newb.jpeg" alt="">
+        <img class="products" src="images/newb.jpeg" alt="">
+        <img class="products" src="images/newb.jpeg" alt="">
+        <img class="products" src="images/newb.jpeg" alt="">
+        <img class="products" src="images/newb.jpeg" alt="">
+        <img class="products" src="images/newb.jpeg" alt="">
+        <img class="products" src="images/newb.jpeg" alt="">
+
+
+
     </div>
     <div class="descrip">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsam quisquam suscipit blanditiis, dolore quis iusto voluptatibus rem rerum aliquid, sed deleniti, quod inventore pariatur dicta aspernatur nobis nesciunt qui!
-        Esse consectetur ad ipsa tenetur? Ab esse perspiciatis fugit temporibus quidem. Beatae minus neque fugit cupiditate enim, magnam amet quas cumque quibusdam tenetur quaerat odit odio animi iure itaque fugiat.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsam quisquam suscipit blanditiis, dolore
+            quis iusto voluptatibus rem rerum aliquid, sed deleniti, quod inventore pariatur dicta aspernatur nobis
+            nesciunt qui!
+            Esse consectetur ad ipsa tenetur? Ab esse perspiciatis fugit temporibus quidem. Beatae minus neque fugit
+            cupiditate enim, magnam amet quas cumque quibusdam tenetur quaerat odit odio animi iure itaque fugiat.</p>
 
     </div>
-   
+
     <div class="footer">
-      
+
         <ul class="f1">
             <li>STUDENT DISCOUNT</li>
             <li>FEEDBACK</li>
@@ -121,15 +193,15 @@
             <img src="images/twitter.png" alt="">
             <img src="images/ig.jpg" alt="">
             <img src="images/fb.jpg" alt="">
-            <img src ="images/youtube.png" alt="">
+            <img src="images/youtube.png" alt="">
         </ul>
-        
+
 
     </div>
 
 </body>
 
-   
+
 
 
 </html>
