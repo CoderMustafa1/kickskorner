@@ -83,70 +83,44 @@
     </div>
 
     <div class="mens">
-        <div class="testing">
-            <img id="products" src="images/newb.jpeg" alt="">
+        <button class="open-button" onclick="openForm()"> Open Form</button>
 
-            <button class="test" onclick="openForm()">
-                New Balance<br>
-                £85<br>
-                UNISEX
-            </button>
+        <div class="form-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+                <img class="products" src="images/newb.jpeg" alt="">
 
+                <div class="test-dets">
+                    <h3>New Balance</h3>
+                    <p>£100</p>
+                    <p>UNISEX</p>
 
-        </div>
+                    <select class="sizes" id="sizes" name="dropBox">
+                        <option>Select a Size </option>
+                        <option>UK 4</option>
+                        <option>UK 5</option>
+                        <option>UK 6</option>
+                        <option>UK 7</option>
+                        <option>UK 8</option>
 
-        <!-- <div class="popup" id="myPopup">
-            <form action="/action_page.php" class="mypopup">
+                    </select>
 
-                <img id="products" src="images/newb.jpeg" alt="">
-                <div class="details">
-
-                    <div class=" np">
-                        <h3>New Balance</h3>
-                        <p>£85</p>
-                        <p class="u">UNISEX</p>
-
-                        <div class="color">
-                            <h4>Colors</h4>
-                            <img src="images/adidas ss/color 1.jpeg">
-                            <img src="images/adidas ss/color 2.jpeg">
-                        </div>
-
-
-                        <select class="sizes" id="sizes" name="dropBox">
-                            <option>Select a Size </option>
-                            <option>UK 4</option>
-                            <option>UK 5</option>
-                            <option>UK 6</option>
-                            <option>UK 7</option>
-                            <option>UK 8</option>
-
-                        </select>
-
-                        <button class="pm">Make 3 payments<br> Learn more.</button>
-                        <div class="pay-op">
-                            <button id="kl">Klarna</button>
-                            <button id="ppl">PayPal</button>
-
-                        </div>
-
-
-                        <div class="cw">
-                            <button id="cart">Add to Cart</button>
-                            <button id="wishlist">Add to Wishlist</button>
-
-                        </div>
+                    <button class="pm">Make 3 payments<br> Learn more.</button>
+                    <div class="pay-op">
+                        <button id="kl">Klarna</button>
+                        <button id="ppl">PayPal</button>
 
                     </div>
 
 
+                    <div class="cw">
+                        <button id="cart">Add to Cart</button>
+                        <button id="wishlist">Add to Wishlist</button>
+
+                    </div>
                 </div>
+                <button type="button" class="close" onclick="closeForm()">&times;</button>
             </form>
-
-
-        </div>-->
-
-
+        </div>
 
 
 

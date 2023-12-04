@@ -27,13 +27,11 @@ window.onclick = function (event) {
 }
 
 //testing
-/*
 function openForm() {
-  document.getElementById("myPopup").style.display = "block";
+  document.getElementById("myForm").style.display = "block";
+
 }
 
-/*function closeForm() {
-  document.getElementById("myPopup").style.display = "none";
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
 }
-*/
-
