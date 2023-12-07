@@ -35,73 +35,12 @@ body {
 }
 
 
+/* HEADER CSS---------------------------------------------------*/
 
-.kk {
-    overflow: hidden;
+.header>h1 {
     background-color: black;
-    display: block;
-
+    color: #979797;
 }
-
-
-.icon {
-    float: left;
-    padding: 8px;
-    padding-left: 15px;
-    width: 60px;
-
-}
-
-.kk .WC {
-
-    float: left;
-
-}
-
-.wc {
-
-    padding: 15px;
-    width: 20px;
-    display: inline-flex;
-    float: right;
-
-}
-
-.kk a {
-
-    color: white;
-    text-align: center;
-    padding: 18px;
-    text-decoration: none;
-    font-size: 15px;
-    margin-left: 20px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-
-}
-
-.kk a:hover {
-    color: blueviolet
-}
-
-.kk input {
-
-    border: none;
-    border-radius: 20px;
-    float: left;
-}
-
-
-.kk input[type=text] {
-
-    border: 1px solid #ccc;
-    padding: 5px 5px;
-    margin-top: 13px;
-    margin-right: 8px;
-}
-
 
 h1 {
     text-align: center;
@@ -109,7 +48,6 @@ h1 {
 
 .filter {
     overflow: hidden;
-
     border-top: solid;
     border-bottom: solid;
     border-width: thin;
@@ -134,60 +72,25 @@ h1 {
     color: teal;
 }
 
-.sort-by {
 
-    color: rgb(57, 57, 57);
-    text-align: center;
+
+.dropdown-content {
+    background-color: white;
+    color: black;
     padding: 16px 18px;
-    text-decoration: none;
     font-size: 11px;
-    border-inline-start: solid;
-    border-inline-end: none;
-    border-width: thin;
-    border-color: #ccc;
+    border: none;
     cursor: pointer;
-    float: right;
-
+    border-bottom: solid;
+    border-width: thin;
 }
 
-.sort-by:hover {
+.dropdown-content:hover {
     color: teal;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    right: 0;
-    background-color: #818181;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 5;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: flex;
-}
-
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
 
 
-.dropdown:hover .sb {
-    background-color: #818181;
-}
 
 .sidebar {
     height: 70%;
@@ -234,7 +137,7 @@ h1 {
     border-width: thin;
     border-color: #e2e2e2;
     display: inline-block;
-
+    background-color: white;
 }
 
 .openbtn:hover {
@@ -255,18 +158,6 @@ h1 {
 
 .pic {
     width: 300px;
-}
-
-
-.overlay>img {
-    transition: .5s ease;
-    position: absolute;
-    height: 300px;
-    width: 300px;
-}
-
-.pic:hover .overlay {
-    opacity: 1;
 }
 
 
@@ -302,7 +193,8 @@ h1 {
     bottom: 60px;
     right: 300px;
     border: 1px solid #818181;
-    z-index: 0;
+    z-index: 2;
+
 
 }
 
@@ -386,25 +278,8 @@ h1 {
 
 
 
-
-
-
-/*
-.products {
-
-    width: 300px;
+.descrip {
     padding: 30px;
-    margin: 20px;
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-
-}
-*/
-
-.descrip p {
-    padding: 40px 40px;
 }
 
 .footer {

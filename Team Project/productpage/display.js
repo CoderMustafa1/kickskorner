@@ -9,24 +9,8 @@ function closeNav() {
   document.getElementById("main").style.marginLeft = "0";
 }
 
-//sort-by
-function myFunction() {
-  document.getElementById().classList.toggle("show");
-}
-window.onclick = function (event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
 
-//testing
+//popup
 function openForm() {
   document.getElementById("myForm").style.display = "block";
 
