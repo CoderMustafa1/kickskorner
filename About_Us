@@ -3,7 +3,7 @@
     <!-- Euan did the content for this page and the Nav bar was properly added/implemented. The footer was also added. -->
     <head>
         <style>
-            /* Updated nav bar for this page */
+            /* Updated nav bar for this page though this will need a further update as Prakhar is updating the home page. */
             ul {
                 list-style-type: none;
                 margin: 0;
