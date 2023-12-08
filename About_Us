@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <!-- Euan did the content for this page and Nav bar finally added -->
+    <!-- Euan did the content for this page and the Nav bar was properly added/implemented. The footer was also added. -->
     <head>
         <style>
             /* Updated nav bar for this page */
@@ -24,7 +24,7 @@
                 text-decoration: none;
             }
 
-            li a:hover {
+            li a: hover {
                 background-color: #111;
             }
 
@@ -119,7 +119,7 @@
             </li>
 
             <li>
-                <ul class="functions underline">
+                <ul class=" functions underline">
                     <li><a href="#">Login</a></li>
                     <li><a href="#">Sign Up</a></li>
                 </ul>
@@ -135,48 +135,48 @@
         <ul>
             <li>Prakhar Pandey</li>
         </ul>
-        <p>Is in charge of developing the front and back end of this website.</p>
+        <p>I am in charge of developing the front and back end of this website. For this, I am responsible for creating/editing the home page. The CSS code for the footer and navigation bar has also been implemented into the other pages on this website.</p>
 
         <ul>
             <li>Mustafa Farah</li>
         </ul>
-        <p>Is also reponsible for developing the front and back end of this website.</p>
+        <p>I am also responsible for developing the front and back end of this website. I created the basket feature and checkout page for this website.</p>
 
         <ul>
             <li>Adeeb Salim</li>
         </ul>
-        <p>Is the technical lead for the project planning and implementation.</p>
+        <p>I am the technical lead for the project planning and implementation. I created the login/sign-up page for the website.</p>
 
         <ul>
             <li>Momooreoluwa Osibodu</li>
         </ul>
-        <p>Making sure that users can easily navigate this website. Basically I'm working on the design for each page for the website.</p>
+        <p>Making sure that users can easily navigate this website. I'm working on the design for each page of the website.</p>
 
         <ul>
             <li>David Afolabi</li>
         </ul>
-        <p>Is working closly with the coders making sure they complete their work while also designing each page.</p>
+        <p>I have been working closely with the coders making sure they complete their work while also designing each page. While I have also been developing the products page.</p>
 
         <ul>
             <li>Mia Morgan</li>
         </ul>
-        <p>Will be woking on the front-end development for this team.</p>
+        <p>I will be working on the front-end development and some back-end development for this team. I have mainly been working on developing the admin page.</p>
 
         <ul>
             <li>Euan Brunton-Douglas</li>
         </ul>
-        <p>Is the lead for the paperwork, making sure it is completed while helping the Front-End coders as well. I'm also the person that created this page!</p>
+        <p>I am the lead for the paperwork, making sure it is completed while helping the Front-End coders with any issues that they come across or giving a second opinion about a particular page. I'm also the person who created this page!</p>
 
         <ul>
         <li>Bassit Irfan</li>
         </ul>
-        <p>Is the Lead for the front-end development of this website.</p>
+        <p>Is the Lead for the front-end development of this website. I have also been working on the Contact Us page.</p>
         
         <h2>Kickskorner's History</h2>
-        <p>Kickskorner was created on the 28th of September 2023 by a group of Aston University students, passionate about improving the overall experience with online shoe stors for users.</p>
+        <p>Kickskorner was created on the 28th of September 2023 by a group of Aston University students, passionate about improving the overall experience with online shoe stores for users.</p>
 
         <h2>Kickskorner's Goal</h2>
-        <p>The main goal for kickskorner is to provide a wide range of footwear for individuals of all ages. It's secondary goal is to redefine the online shoe shopping experience.</p>
+        <p>The main goal for kickskorner is to provide a wide range of footwear for individuals of all ages. Its secondary goal is to redefine the online shoe-shopping experience.</p>
     
         <!--Footer for the Page-->
         <div class="footer">
