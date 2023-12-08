@@ -1,0 +1,134 @@
+<!--Contact Us page made by Bassit Irfan-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactus-style.css">
+    <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/82432fd72f.js" crossorigin="anonymous"></script>
+    <title>Contact Us</title>
+</head>
+<body>
+
+  <div class="nav1">
+    <ul>
+        <li><img src="Images/logo-png1.png" alt="This image is not supported on your browser" class="nav-img"></li>
+        <li>
+            <ul>
+                <li class="underline" id="men">
+                    <a href="#">Men</a>
+                    <div class="dropdown-container dropdown-container-men">
+                        <!-- Add Men's dropdown content here -->
+                    </div>
+                </li>
+                <li class="underline" id="women">
+                    <a href="#">Women</a>
+                    <div class="dropdown-container dropdown-container-women">
+                        <!-- Add Women's dropdown content here -->
+                    </div>
+                </li>
+                <li class="underline" id="kids">
+                    <a href="#">Kids</a>
+                    <div class="dropdown-container dropdown-container-kids">
+                        <!-- Add Kids' dropdown content here -->
+                    </div>
+                </li>
+                <li class="underline">
+                    <a href="#">About Us</a>
+                </li>
+                <li class="underline">
+                    <a href="#">Contact Us</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+
+            <ul class="functions underline">
+                <span onclick="openBucket()" class="cart-icon"><i class="fas fa-shopping-cart"></i></span>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </li>
+    </ul></div>
+  
+  
+  <div class="headerText">
+  <h1>Contact Us</h1>
+</div>  
+  <div class="container">
+      <div class="icon phone" onclick="popupForm('phone')"><i class="fa-solid fa-phone"></i>
+      
+        <div class="contact-info">
+        <h2>Via Phone</h2>
+        <p>24/7 Customer Support</p>
+        <p>0121 211 8279</p>
+      </div>
+
+      </div>
+      <div class="icon form" onclick="popupForm('form')"><div class="formIcon" title="Click to open form">&#128195;</div>
+    
+      <div id="formHeading">
+      <h2>Contact Form</h2>
+    </div>
+
+    </div>
+      <div class="icon email" onclick="popupForm('email')"> <a href="mailto:kickskornerbusiness@gmail.com" target="_blank" title="Click to directly email us"><i class="fa-solid fa-envelope"></i></a>
+      
+        <h2>Direct Email</h2>
+        <p>For urgent inquiries, choose this option</p>
+        
+      
+      
+      </div>
+  </div>
+
+    
+       
+        
+      
+      
+      <div id="form-popup" class="popup">
+        <h2>Contact Form</h2>
+        <form class="form">
+          <input type="text" class="entryField" id="name" placeholder=" Your Name" required>
+          <input type="email" class="entryField" id="email" placeholder=" Your Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+          <textarea class="entryField textarea-field" id="message" placeholder="Message" required></textarea>
+          <input type="submit" class="submitNow"  id="submitForm" value="Submit">
+        </form>
+        <button class="closeButton" onclick="closePopup()">Close</button>
+      </div>
+      
+    <!--
+     
+     <footer>
+      <div id="myFooter">
+        <h2>KicksKorner</h2>
+        <p>Visit us on our socials</p>
+        <div class="socials">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <a href="#" id="back-to-top" title="Back to top">^</a>
+
+      </div>
+      </footer>
+    -->
+
+    <div class="footer">
+      <p>Follow Us!</p>
+      <div class="socials">
+          <a class="socials-button" href="https://www.instagram.com%22%3E/<i class="fa fa-brands fa fa-instagram" style="color: #D62976;"></i></a>
+          <a class="socials-button" href="https://www.linkedin.com/"><i class="fa fa-brands fa fa-linkedin" style="color: #0A66C2;"></i></a>
+          <a class="socials-button" href="https://twitter.com/"><i class="fa fa-brands fa fa-twitter" style="color: #00ACEE;"></i></a>
+          <a class="socials-button" href="https://www.youtube.com/"><i class="fa fa-brands fa fa-youtube" style="color: #FF0000;"></i></a>
+      </div>
+      <p>Made With &#x1FA75; By Team 36</p>
+  </div>
+      <script src="contactus-script.js"></script>
+
+</body>
+</html>
