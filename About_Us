@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-    <!-- Euan did the content for this page and added a place holder for the nave bar wich needs to be changed by either: Prakhar or Mustafa. -->
+    <!-- Euan did the content for this page and Nav bar finally added -->
     <head>
         <style>
-            /* Currently the nav bar - needs to be changed to the main page one */
+            /* Updated nav bar for this page */
             ul {
                 list-style-type: none;
                 margin: 0;
@@ -28,18 +28,107 @@
                 background-color: #111;
             }
 
+            .footer{
+                overflow: hidden;
+                background-color: #000;
+                height: 13vh;
+                width: 100%;
+                z-index: 999;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .footer p{
+                color: #BDBDBD;
+                font-size: 10px;
+            }
+
+            .socials{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            .socials-button{
+                background: none;
+                border: none;
+                box-shadow: none;
+                text-decoration: none;
+                margin: 0 5px 0 5px;
+            }
+
 /* Don't change this */
             h1 {text-align: center;}
         </style>
     </head>
     <body>
 <!-- Related to the nav bar so might need changing/editing -->
+    <div class="nav">
         <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#mens">Mens</a></li>
-            <li><a href="#womens">Womens</a></li>
-            <li><a href="#kids">Kids</a></li>
+            <li><img src="Images/logo-png1.png" alt="" class="nav-img"></li>
+            <li>
+                <ul>
+                    <li class="underline" id="men">
+                        <a href="#">Men</a>
+                        <div class="dropdown-container-men">
+                            <div class="drop-col">
+                                <a class="dropdown" href="#">Men's Products 1</a>
+                                <a class="dropdown" href="#">Men's Products 2</a>
+                                <a class="dropdown" href="#">Men's Products 3</a>
+                                <a class="dropdown" href="#">Men's Products 4</a>
+                                <a class="dropdown" href="#">Men's Products 5</a>
+                                <a class="dropdown" href="#">Men's Products 6</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="underline" id="women">
+                        <a href="#">Women</a>
+                        <div class="dropdown-container-women">
+                            <div class="drop-col">
+                                <a class="dropdown" href="#">Women's Products 1</a>
+                                <a class="dropdown" href="#">Women's Products 2</a>
+                                <a class="dropdown" href="#">Women's Products 3</a>
+                                <a class="dropdown" href="#">Women's Products 4</a>
+                                <a class="dropdown" href="#">Women's Products 5</a>
+                                <a class="dropdown" href="#">Women's Products 6</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="underline" id="kids">
+                        <a href="#">Kids</a>
+                        <div class="dropdown-container-kids">
+                            <div class="drop-col">
+                                <a class="dropdown" href="#">Kid's Products 1</a>
+                                <a class="dropdown" href="#">Kid's Products 2</a>
+                                <a class="dropdown" href="#">Kid's Products 3</a>
+                                <a class="dropdown" href="#">Kid's Products 4</a>
+                                <a class="dropdown" href="#">Kid's Products 5</a>
+                                <a class="dropdown" href="#">Kid's Products 6</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <ul class="underline" id="About Us">
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <ul class="functions underline">
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                </ul>
+            </li>
         </ul>
+        <div class="bar">
+            <p>GET 20% OFF NOW WITH CODE GP36</p>
+        </div>
+    </div>
  <!-- Main Page Info - so don't edit this unless you think something missing. -->
         <h1>About Us</h1>
         <h2>Team Members:</h2>
@@ -88,5 +177,18 @@
 
         <h2>Kickskorner's Goal</h2>
         <p>The main goal for kickskorner is to provide a wide range of footwear for individuals of all ages. It's secondary goal is to redefine the online shoe shopping experience.</p>
+    
+        <!--Footer for the Page-->
+        <div class="footer">
+            <p>Follow Us!</p>
+            <div class="socials">
+                <a class="socials-button" href="https://www.instagram.com%22%3E/<i class="fa fa-brands fa fa-instagram" style="color: #D62976;"></i></a>
+                <a class="socials-button" href="https://www.linkedin.com/"><i class="fa fa-brands fa fa-linkedin" style="color: #0A66C2;"></i></a>
+                <a class="socials-button" href="https://twitter.com/"><i class="fa fa-brands fa fa-twitter" style="color: #00ACEE;"></i></a>
+                <a class="socials-button" href="https://www.youtube.com/"><i class="fa fa-brands fa fa-youtube" style="color: #FF0000;"></i></a>
+            </div>
+            <p>Made With &#x1FA75; By Team 36</p>
+        </div>
+    
     </body>
 <html>
