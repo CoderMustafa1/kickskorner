@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -6,7 +5,7 @@
   <title> checkout</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="./css/style3.css">
+<link rel="stylesheet" href="CSS/style3.css">
 <script src="https://kit.fontawesome.com/26f8ed069f.js" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
 
@@ -14,7 +13,7 @@
 <body>
 <!-- partial:index.partial.html -->
 <div class="product-container">
-  
+
   <div class="details">
     <h1 class="cost">Secure Payments</h1>
     <h3 class="title">KickKorner</h3>
@@ -55,14 +54,14 @@
     function generateRandomOrderNumber() {
       return Math.floor(Math.random() * 1000000) + 1; // Change the range or format as needed
     }
-  
+
     function showThankYouPopup() {
       const orderNumber = generateRandomOrderNumber();
       const popupMessage = `Thanks for ordering! Your order number is: ${orderNumber}`;
-      
+
       alert(popupMessage); // You can use a more sophisticated popup library for a better user experience
     }
-  
+
     document.addEventListener('DOMContentLoaded', function () {
       const purchaseButton = document.querySelector('.purchase-button');
       if (purchaseButton) {
@@ -70,7 +69,6 @@
       }
     });
   </script>
-  
-  
+
 </body>
 </html>
