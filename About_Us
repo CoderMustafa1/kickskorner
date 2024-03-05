@@ -1,34 +1,140 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-            h1 {text-align: center;}
-        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="Images/logo-png.png" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="CSS/about-style.css">
+        <style>@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');</style>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+        <script src="JS/main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <title>KicksKorner - Kicks for every corner!</title>
     </head>
     <body>
-        <h1>About Us</h1>
-        <h2>Team Members:</h2>
-        <ul>
-            <li>Prakhar Pandey</li>
-            <p>Is in charge of developing the front and back end of this website.</p>
-            <li>Mustafa Farah</li>
-            <p>Is also reponsible for developing the front and back end of this website.</p>
-            <li>Adeeb Salim</li>
-            <p>Is the technical lead for the project planning, design and implementation.</p>
-            <li>Momooreoluwa Osibodu</li>
-            <p>Making sure that users can easily navigate the website.</p>
-            <li>David Afolabi</li>
-            <p>Is working closly with the coders making sure they complete their work while also designing each page.</p>
-            <li>Mia Morgan</li>
-            <p>Will be woking on the front-end development for this team.</p>
-            <li>Euan Brunton-Douglas</li>
-            <p>Is the lead for the paperwork making sure it is completed while also helping the Front-End coders. Is also the person that created this page!</p>
-            <li>Bassit Irfan</li>
-            <p>Is the Lead for the front-end development of this website.</p>
-        </ul>
-        <h2>Kickskorner's History</h2>
-        <p>Kickskorner was created on the 28th of September 2023 by a group of Aston University passionate about improving the overall experience with online shoe stors.</p>
-        <h2>Kickskorner's Goal</h2>
-        <p>The main goal for kickskorner is to provide a wide range of footwear for individuals of all ages. It's secondary goal is to redefine the online shoe shopping experience.</p>
+        <div class="wrapper">
+            <div class="nav">
+                <ul>
+                    <li><img src="Images/logo-new.png" alt="" class="nav-img"></li>
+                    <li>
+                        <ul>
+                            <li class="underline" id="men">
+                                <a href="#">Men</a>
+                                <div class="dropdown-container-men">
+                                    <div class="drop-col">
+                                        <a class="dropdown" href="#">Men's Products 1</a>
+                                        <a class="dropdown" href="#">Men's Products 2</a>
+                                        <a class="dropdown" href="#">Men's Products 3</a>
+                                        <a class="dropdown" href="#">Men's Products 4</a>
+                                        <a class="dropdown" href="#">Men's Products 5</a>
+                                        <a class="dropdown" href="#">Men's Products 6</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="underline" id="women">
+                                <a href="#">Women</a>
+                                <div class="dropdown-container-women">
+                                    <div class="drop-col">
+                                        <a class="dropdown" href="#">Women's Products 1</a>
+                                        <a class="dropdown" href="#">Women's Products 2</a>
+                                        <a class="dropdown" href="#">Women's Products 3</a>
+                                        <a class="dropdown" href="#">Women's Products 4</a>
+                                        <a class="dropdown" href="#">Women's Products 5</a>
+                                        <a class="dropdown" href="#">Women's Products 6</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="underline" id="kids">
+                                <a href="#">Kids</a>
+                                <div class="dropdown-container-kids">
+                                    <div class="drop-col">
+                                        <a class="dropdown" href="#">Kid's Products 1</a>
+                                        <a class="dropdown" href="#">Kid's Products 2</a>
+                                        <a class="dropdown" href="#">Kid's Products 3</a>
+                                        <a class="dropdown" href="#">Kid's Products 4</a>
+                                        <a class="dropdown" href="#">Kid's Products 5</a>
+                                        <a class="dropdown" href="#">Kid's Products 6</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="functions underline">
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Sign Up</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="aboutus">ABOUT US</p>
+                        <h1>Kicks for every corner.</h1>
+                        <p>
+                            Our Goal:<br> 
+                            The main goal for Kickskorner is to provide a wide range of footwear for individuals of all ages.<br>
+                            Its secondary goal is to redefine the online shoe-shopping experience.<br>
+                            Our History:<br> 
+                            Kickskorner was created on the 28th of September 2023 by a group of Aston University students, <br> 
+                            passionate about improving the overall experience with online shoe stores for users.
+                        </p>
+                    </div>
+                    <img src="Images/about-img.png" alt="" class="about-img">
+                </div>
+            </div>
+            <div class="team">
+                <div class="titles">
+                    <h1>Meet The Team</h1>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <h2>Prakhar Pandey</h2>
+                        <p>Is in charge of developing the front-end code of the website.</p>
+                    </div>
+                    <div class="card">
+                        <h2>Adeeb Salim</h2>
+                        <p>Is the technical lead for the project planning and implementation, predominantly working on the back-end.</p>
+                    </div>
+                    <div class="card">
+                        <h2>Mustafa Farah</h2>
+                        <p>Is in charge of developing the checkout and basket feature for the website.</p>
+                    </div>
+                    <div class="card">
+                        <h2>Bassit Irfan</h2>
+                        <p>Has been working on the front and back end of this website.</p>
+                    </div>
+                    <div class="break"></div>
+                    <div class="card">
+                        <h2>David Afolabi</h2>
+                        <p>Is working closely with the coders making sure they complete their work while also designing each page.</p>
+                    </div>
+                    <div class="card">
+                        <h2>Mia Morgan</h2>
+                        <p>I Will be working on the front-end development for this team and have also been working on Admin-related features.</p>
+                    </div>
+                    <div class="card">
+                        <h2>Euan Brunton-Douglas</h2>
+                        <p>Is the lead for the paperwork, making sure it is completed while helping the Front-End coders as well. I'm also the person who created this page!</p>
+                    </div>
+                    <div class="card">
+                        <h2>Momooreoluwa Osibodu</h2>
+                        <p>Making sure that users can easily navigate this website. I'm working on the design for each page of the website.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <p>Follow Us!</p>
+                <div class="socials">
+                    <a class="socials-button" href="https://www.instagram.com"><i class="fa fa-brands fa fa-instagram" style="color: #fcd12a;"></i></a>
+                    <a class="socials-button" href="https://www.linkedin.com/"><i class="fa fa-brands fa fa-linkedin" style="color: #fcd12a;"></i></a>
+                    <a class="socials-button" href="https://twitter.com/"><i class="fa fa-brands fa fa-twitter" style="color: #fcd12a;"></i></a>
+                    <a class="socials-button" href="https://www.youtube.com/"><i class="fa fa-brands fa fa-youtube" style="color: #fcd12a;"></i></a>
+                </div>
+                <p>Made With &#128155; By Team 36</p>
+            </div>
+        </div>
     </body>
-<html>
+</html>
