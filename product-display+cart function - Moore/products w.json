@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "New Balance",
+        "price": 105,
+        "image": "pics/download (2).jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Adidas",
+        "price": 80,
+        "image": "pics/download (3).jpeg"
+    },
+    {
+        "id": 3,
+        "name": "New Balance",
+        "price": 150,
+        "image": "pics/download (4).jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Nike Dunk Low",
+        "price": 80,
+        "image": "pics/Nike Dunk Low University Red.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Nike Dunk Low",
+        "price": 80,
+        "image": "pics/Nike Dunk Low University Red.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "New Balance",
+        "price": 80,
+        "image": "pics/download (4).jpeg"
+    },
+    {
+        "id": 7,
+        "name": "Adidas",
+        "price": 80,
+        "image": "pics/download (3).jpeg"
+    },
+    {
+        "id": 8,
+        "name": "New Balance",
+        "price": 140,
+        "image": "pics/download (2).jpeg"
+    },
+    {
+        "id": 9,
+        "name": "Converse Chuck",
+        "price": 82,
+        "image": "pics/Play Red Heart Converse Chuck All Star '70 High.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "New Balance",
+        "price": 95,
+        "image": "pics/download (2).jpeg"
+    },
+    {
+        "id": 11,
+        "name": "Converse Chuck",
+        "price": 80,
+        "image": "pics/Play Red Heart Converse Chuck All Star '70 High.jpeg"
+    },
+    {
+        "id": 12,
+        "name": "New Balance",
+        "price": 75,
+        "image": "pics/download (4).jpeg"
+    }
+]
