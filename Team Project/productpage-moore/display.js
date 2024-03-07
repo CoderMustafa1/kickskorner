@@ -12,7 +12,7 @@ function closeNav() {
 
 //popup
 function openForm() {
-  document.getElementById("myForm").style.display = "block";
+  document.getElementById("myForm", "myform").style.display = "block";
 
 }
 
