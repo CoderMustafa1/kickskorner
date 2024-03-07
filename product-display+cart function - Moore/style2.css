@@ -117,13 +117,16 @@ header .icon-cart span {
 
 .cartTab {
     width: 350px;
-    background-color: #9b9a9a;
-    color: #eee;
+    background-color: #eeeded;
+    color: #0b0b0b;
     position: fixed;
     inset: 0 -350px 0 auto;
     display: grid;
-    grid-template-rows: 70px 1fr 70px;
+    grid-template-rows: 60px 1fr 42px;
     transition: .5s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+
 }
 
 body.showCart .cartTab {
@@ -144,7 +147,6 @@ body.showCart .container {
 .cartTab .btn {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-content: space-between;
 
 }
 
@@ -155,7 +157,8 @@ body.showCart .container {
 }
 
 .cartTab .btn .close {
-    background-color: #e3e7e8;
+    background-color: #0b0b0b;
+    color: #ccc;
 }
 
 .cartTab .listCart .item img {
@@ -164,7 +167,7 @@ body.showCart .container {
 
 .cartTab .listCart .item {
     display: grid;
-    grid-template-columns: 60px 60px 30px 1fr;
+    grid-template-columns: 60px 60px 50px 1fr;
     gap: 10px;
     text-align: center;
     align-items: center;
@@ -174,22 +177,24 @@ body.showCart .container {
     display: inline-flex;
     width: 25px;
     height: 25px;
-    background-color: #ededed;
-    color: #0b0b0b;
-    border-radius: 50px;
+    background-color: #0b0b0b;
+    color: #e3e7e8;
+    border-radius: 5px;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+
 }
 
 .listCart .quantity span:nth-child(2) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: transparent;
-    ;
-    color: #ededed;
+    color: #0b0b0b;
 }
 
 .listCart .item:nth-child(even) {
     background-color: #b4b3b3;
+
 }
 
 .listCart {
